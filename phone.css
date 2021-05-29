@@ -1,0 +1,116 @@
+.nav .box a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 11px;
+}
+@media only screen and (min-width:0px) and (max-width:650px)
+{
+
+.nav{
+   display: block;
+   
+  
+} 
+.nav ::before
+{
+    /* flex-direction: column; */
+    height: 120px;
+}
+
+.nav a{
+    list-style: none;                /*dot and underline hatavav */
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 0px 10px;
+   margin: auto;
+}
+
+.logo {
+    margin: auto;
+}
+.box{
+    margin: auto;
+    padding-left: 50px;
+    width: 300px;
+}
+}
+
+
+/*/////////////////Home/////////////////////////////////////////  */
+/* #w1{
+    padding: auto;
+} */
+
+/* ///////////////Menu///////////////////////////// */
+
+/* /////////////////////Gallery/////////////// */
+ @media only screen and (min-width:0px) and (max-width:650px)
+{
+
+    .G1{
+        height: 400px;
+    }
+    .image{
+        /* position: absolute; */
+        height: 200px;
+        width: 250px;
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid red; */
+        /* margin-left: 50px; */
+    }
+
+    .offers{
+        font-family: 'Bree Serif', serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    }
+} 
+
+/* //////////////////form/////////////// */
+@media only screen and (min-width:0px) and (max-width:560px)
+{
+
+    .cont{
+        height: 800px;
+    width: 330px;
+    margin: auto;
+    }
+input,select,textarea{
+    border-radius: 10px;
+    width: 300px !important;
+   
+}
+
+
+
+button{
+    border-radius: 10px;
+    width: 100px !important;
+   
+  
+
+}
+.b1,.b2{
+    font-size: 0.8rem;
+}
+}
+
+
+
+@media only screen and (min-width:0px) and (max-width:450px)
+{
+    #w1{
+        font-size: 60px;  
+        
+    }
+    #w2{
+        font-size: 20px;
+    }
+}
