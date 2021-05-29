@@ -69,7 +69,7 @@ body,html {
     justify-content: center;
     align-items: center;
      background-image: linear-gradient(to right,rgba(0,0,0,0.514),rgba(0,0,0,0.363),rgba(0,0,0,0.452));
-    background: url('../pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg') no-repeat center center/cover;
+    background: url('./pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg') no-repeat center center/cover;
     
 }
 
@@ -127,7 +127,7 @@ body,html {
      justify-content: center;   
      align-items: center;  
     background-image: linear-gradient(to right,rgba(0,0,0,0.514),rgba(0,0,0,0.363),rgba(0,0,0,0.452));
-    background: url('../brooke-lark-4AS6y6UH70s-unsplash.jpg') no-repeat center center/cover;
+    background: url('./brooke-lark-4AS6y6UH70s-unsplash.jpg') no-repeat center center/cover;
 
     
    
@@ -138,11 +138,11 @@ body,html {
     width: 50px;
     top: 0px;
     /* margin: auto; */
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 2rem;
-}
+} */
 
 
 .food_data{
@@ -311,7 +311,7 @@ font-weight: bolder;
         display: block;
         content: "";
     position: absolute;
-    background: url('../doasa_offer.jpg') no-repeat center center/cover;
+    background: url('./doasa_offer.jpg') no-repeat center center/cover;
     
     }
 
@@ -324,7 +324,7 @@ font-weight: bolder;
         
         content: "";
         position: absolute;
-        background: url('../sandwich.jpg') no-repeat center center/cover;
+        background: url('./sandwich.jpg') no-repeat center center/cover;
    
     }
 
@@ -334,7 +334,7 @@ font-weight: bolder;
         
         content: "";
         position: absolute;
-        background: url('../italian-pasta.jpg') no-repeat center center/cover;
+        background: url('./italian-pasta.jpg') no-repeat center center/cover;
    
     }
 
@@ -344,7 +344,7 @@ font-weight: bolder;
        
         content: "";
         position: absolute;
-        background: url('../chinese noodels.jpg') no-repeat center center/cover;
+        background: url('./chinese noodels.jpg') no-repeat center center/cover;
    
     }
 
@@ -353,7 +353,7 @@ font-weight: bolder;
         
         content: "";
         position: absolute;
-        background: url('../burger.jpg') no-repeat center center/cover;
+        background: url('./burger.jpg') no-repeat center center/cover;
    
     } 
 }
